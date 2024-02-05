@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap');
+
+body {
+  background-color: #84a98c;
+  font-family:'Roboto Mono',  monospace;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.profile-name {
+  font-weight: 600px;
+}
+
+h1 {
+  color: #0b2646;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #0b2646;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  margin: 20px;
+  color: #7597c3;
+  background-color: #415a77;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center
+}
+
+.list {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.find-me {
+  display: inline-block;
+  padding: 10px;
+}
+
+.find-me:hover {
+  color: #e5dae8;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
